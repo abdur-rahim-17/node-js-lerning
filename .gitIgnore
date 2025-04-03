@@ -1,0 +1,91 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore dependency directories
+node_modules/
+vendor/
+venv/
+env/
+target/
+dist/
+out/
+
+# Ignore build artifacts
+*.o
+*.lo
+*.la
+*.al
+*.pyc
+*.pyo
+*.pyd
+*.class
+*.jar
+*.war
+*.ear
+*.swp
+
+# Ignore logs and temp files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.pid
+*.seed
+*.sqlite
+*.sqlite3
+
+# Ignore IDE/editor files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore environment variables
+.env
+.env.local
+.env.*.local
+.envrc
+
+# Ignore coverage reports
+coverage/
+*.lcov
+
+# Ignore generated files
+*.bak
+*.cache
+*.out
+
+# Ignore database dumps
+*.sql
+*.dump
+
+# Ignore OS-specific files
+*.swp
+*.swo
+
+# Ignore compiled code and executables
+bin/
+obj/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore Terraform files
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore Kubernetes config
+.kube/
+
+# Ignore Python virtual environment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
